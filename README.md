@@ -78,11 +78,6 @@ A powerful, real-time Machine Readable Zone (MRZ) scanner built with React Nativ
    npm run android
    ```
 
-   **For iOS**:
-   ```bash
-   npm run ios
-   ```
-
    **Development (Expo)**:
    ```bash
    npm start
