@@ -14,7 +14,9 @@ workflows:
     scripts:
       - name: Install dependencies
         script: |
-          npx yarn@1.22.22 install --frozen-lockfile
+          corepack enable
+          corepack prepare yarn@1.22.22 --activate
+          yarn install --frozen-lockfile
       - name: Build Android
         script: |
           cd android && ./gradlew assembleRelease
@@ -43,7 +45,9 @@ workflows:
     scripts:
       - name: Install dependencies
         script: |
-          npx yarn@1.22.22 install --frozen-lockfile
+          corepack enable
+          corepack prepare yarn@1.22.22 --activate
+          yarn install --frozen-lockfile
       - name: Install CocoaPods
         script: |
           cd ios && pod install
