@@ -4,6 +4,14 @@ A powerful, real-time Machine Readable Zone (MRZ) scanner built with React Nativ
 
 ---
 
+## 📸 Screenshots
+
+| Main Screen | Real-time Scanning | Scan Result |
+| :---: | :---: | :---: |
+| ![Main Screen](./assets/screenshots/preview_main.jpg) | ![Scanning](./assets/screenshots/realtime_scan.jpg) | ![Result](./assets/screenshots/scan_result.jpg) |
+
+---
+
 ## ✨ Features
 
 - **Real-time Scanning**: High-speed MRZ detection using `react-native-vision-camera`.
@@ -23,14 +31,6 @@ A powerful, real-time Machine Readable Zone (MRZ) scanner built with React Nativ
 - **Logic**: [React Native Worklets Core](https://github.com/margelo/react-native-worklets-core) (for camera thread processing)
 - **OCR Engine**: [Google ML Kit Text Recognition](https://developers.google.com/ml-kit/vision/text-recognition) (Android)
 - **Language**: TypeScript & Kotlin (Native Module)
-
----
-
-## 📸 Screenshots
-
-| Main Screen | Real-time Scanning | Scan Result |
-| :---: | :---: | :---: |
-| ![Main Screen](./assets/screenshots/preview_main.jpg) | ![Scanning](./assets/screenshots/realtime_scan.jpg) | ![Result](./assets/screenshots/scan_result.jpg) |
 
 ---
 
